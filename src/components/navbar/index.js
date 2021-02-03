@@ -1,16 +1,16 @@
 import React from "react";
+import "./styles/navbar.css";
+// import github from "./pics/github.png"
 
 function Navbar() {
   return (
-    <div className="navbar-frame">
-      <nav>
-        <div>Skills</div>
-        <div>About</div>
-        <div>Projects</div>
-        <div>you tube</div>
-        <div>github</div>
-        <div>linked in</div>
-      </nav>
+    <div>
+      <a href="#">Introduction</a>
+      <a href="#">Skills</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+      {/* <img src={github} /> */}
     </div>
   );
 }
