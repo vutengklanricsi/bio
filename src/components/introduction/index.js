@@ -3,12 +3,9 @@ import "./styles/introduction.css";
 
 export default function Introduction() {
   return (
-    <div>
-      <div>
+    <div className="introduction-frame">
+      <div className="introduction-text">
 				Hello, welcome to my portfolio page!
-				erljgebrgnlwrjgnlkwrgklwrnklwrklngrkgnreklgnseéglse
-				resljngjsrelbkgresgjlregjlrengreg
-				erjgnesjrlgn	
 			</div>
     </div>
   );
