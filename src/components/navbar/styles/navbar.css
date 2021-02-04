@@ -1,19 +1,19 @@
 div {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
-  padding: 10px 0;
-  text-align: center;
+  padding: 10px 0px 10px 0px;
+	
 }
-a {
+.navbar-options {
   color: black;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 4px;
+  letter-spacing: 10px;
   padding: 15px 20px;
   position: relative;
 }
-a:after {
+.navbar-options:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -22,13 +22,33 @@ a:after {
   left: 50%;
   position: absolute;
   background: black;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.8s ease 0s, left 0.8s ease 0s;
   width: 0;
 }
-a:hover:after {
+.navbar-options:hover:after {
   width: 100%;
   left: 0;
 }
+
+.navbar-logo {
+  padding: 0px 10px 0px 10px;
+  height: 30px;
+  transition: transform 0.8s;
+}
+.navbar-logo:hover {
+  /* -webkit-transform: scale(1.2); */
+  transform: scale(1.3);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1px 0;
+  padding: 0;
+}
+
 @media screen and (max-width: 900px) {
   div {
     display: flex;
@@ -40,13 +60,17 @@ a:hover:after {
     text-align: center;
     margin: 0 auto;
   }
-  a {
+  .navbar-options {
     justify-content: center;
     width: auto;
     font-size: 15px;
   }
-  a:hover:after {
+  .navbar-options:hover:after {
     width: 100%;
     left: 0;
+  }
+
+  .navbar-logo {
+    padding: 7px 0px;
   }
 }
