@@ -4,7 +4,6 @@
   flex-direction: row;
   padding: 10px 0px 10px 0px;
 }
-
 hr {
   display: block;
   height: 1px;
@@ -13,7 +12,6 @@ hr {
   margin: 1px 0;
   padding: 0;
 }
-
 .navbar-options {
   color: black;
   text-transform: uppercase;
@@ -26,7 +24,6 @@ hr {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
-  display: block;
   height: 2px;
   left: 50%;
   position: absolute;
@@ -38,7 +35,6 @@ hr {
   width: 100%;
   left: 0;
 }
-
 .navbar-logo {
   padding: 0px 10px 0px 10px;
   height: 30px;
@@ -55,13 +51,17 @@ hr {
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    width: 47%;
+    width: 65%;
   }
   .navbar-options {
     justify-content: center;
     width: auto;
     font-size: 15px;
   }
+  /* .navbar-options:hover:after {
+    width: 100%;
+    left: 0;
+  } */
   .navbar-logos {
     display: flex;
     margin: 0 auto;
