@@ -1,13 +1,15 @@
 .introduction-frame {
   display: flex;
   justify-content: center;
+  text-align: center;
   padding: 10px 0;
-  height: 535px;
+  height: 667px;
   width: 100%;
 }
 
 .introduction-image {
   margin: auto 0;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 .introduction-title {
@@ -17,6 +19,8 @@
   justify-content: center;
   letter-spacing: 10px;
   margin: auto 0;
+  animation: fadein 2s;
+  -webkit-animation: fadein 2s;
 }
 
 .introduction-title:hover {
@@ -25,19 +29,52 @@
 
 hr {
   display: block;
-  /* height: 10px; */
-  width: 100%;
+  height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 10px 0;
+  margin: 10px 0px 20px 0px;
   padding: 0;
-  text-align: center;
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 @media screen and (max-width: 1550px) {
+  .introduction-frame {
+    padding: 10px 0;
+    height: 535px;
+    width: 100%;
+  }
   img {
     width: 800px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+	.introduction-frame {
+    padding: 10px 0;
+    height: 400px;
+    width: 100%;
+  }
+  img {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+	.introduction-frame {
+    padding: 10px 0;
+    height: 335px;
+    width: 100%;
+  }
+  img {
+    width: 500px;
   }
 }
 
@@ -56,11 +93,12 @@ hr {
   }
 
   .introduction-image {
-    margin: 0 0;
+		margin: 0 0;
+		clip-path: polygon(10% 10%,90% 10%,90% 90%,10% 90%)
   }
 
   .introduction-title {
-    margin: auto auto;
+    margin: 0 auto;
     text-align: center;
   }
 }
