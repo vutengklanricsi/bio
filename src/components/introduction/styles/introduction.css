@@ -8,7 +8,7 @@
 }
 
 .introduction-image {
-  margin: auto 0;
+  margin: auto 0px auto 50px;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
@@ -93,13 +93,18 @@ hr {
     flex-direction: column;
     text-align: center;
     margin: 0px;
-    height: 400px;
+		height: 320px;
+		padding: 0px 0;
   }
   img {
     height: 300px;
     width: 460px;
     margin: 0px;
-  }
+	}
+	
+	hr{
+		margin: 10px 100px 10px 100px;
+	}
 
   .introduction-image {
     margin: 0 0;
