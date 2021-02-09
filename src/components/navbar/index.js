@@ -12,20 +12,17 @@ function Navbar() {
       <a className="navbar-options" href="#">
         Skills
       </a>
-      <a className="navbar-options" href="#">
-        About
-      </a>
+
       <a className="navbar-options" href="#">
         Projects
       </a>
       <a className="navbar-options" href="#">
-        Contact
+        About Me
       </a>
       <div className="navbar-logos">
         <img className="navbar-logo" src={github} alt="github" />
         <img className="navbar-logo" src={linkedIn} alt="linkedIn" />
       </div>
-      {/* <hr /> */}
     </div>
   );
 }

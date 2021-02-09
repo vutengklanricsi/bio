@@ -3,6 +3,7 @@
   justify-content: center;
   flex-direction: row;
   padding: 10px 0px 10px 0px;
+  background-color: rgb(103, 161, 106);
 }
 
 .navbar-options {
@@ -44,17 +45,13 @@
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    width: 65%;
+    width: 100%;
   }
   .navbar-options {
-    justify-content: center;
-    width: auto;
+    /* width: 280px; */
     font-size: 15px;
   }
-  /* .navbar-options:hover:after {
-    width: 100%;
-    left: 0;
-  } */
+
   .navbar-logos {
     display: flex;
     margin: 0 auto;
