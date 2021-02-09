@@ -5,12 +5,15 @@ import introPic from "./styles/intro_pic.png";
 export default function Introduction() {
   return (
     <>
-		<hr/>
+      <hr />
       <div className="introduction-frame">
         <div className="introduction-image">
           <img src={introPic} alt="intro-pic" />
         </div>
-        <div className="introduction-title">WELCOME TO MY PORTFOLIO PAGE!</div>
+        <div className="introduction-title">
+          Vuong-Tan Quang Richard <br />
+          Frontend Developer
+        </div>
       </div>
     </>
   );
