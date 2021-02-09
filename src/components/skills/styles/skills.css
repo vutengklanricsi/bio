@@ -1,31 +1,63 @@
 .skills-frame {
   background-color: white;
   display: flex;
+	flex-wrap: wrap;
   flex-direction: row;
+  letter-spacing: 7px;
 }
-
 .skills-image-desktop {
   display: flex;
   flex-direction: column;
 }
-
 .skills-list {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  font-size: 35px;
-  margin: auto;
   list-style-type: none;
-  text-align: center;
 }
-
-.skills-list li {
+.skills-list text {
   width: 100%;
-  font-size: 35px;
-  margin: auto;
-  padding: 20px 0px;
+  font-size: 25px;
+  padding: 20px 0px 0px 150px ;
 }
-
+.skills-list text::before {
+  content: "";
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fb-heart.gif);
+  background-size: contain;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 2px;
+  /* margin-right: 80px; */
+}
 .skills-image-desktop img {
-  width: 30%;
-  height: 80%;
-  margin: auto;
+  width: 500px;
+  height: 500px;
+  margin: auto 230px;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 7px;
+}
+@media screen and (max-width: 900px) {
+  .skills-frame {
+    display: flex;
+    flex-direction: column;
+		margin: 0 auto;
+  }
+  .skills-image-desktop img {
+    width: 250px;
+    height: 250px;
+    margin: 30px auto;
+  }
+  .skills-list text {
+    font-size: 20px;
+		padding: 20;
+		flex: 1;
+  }
+
+	.skills-list text::before {
+		margin-right: 10px;
+	}
 }

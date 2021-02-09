@@ -6,18 +6,19 @@ export default function Skills() {
   return (
     <>
       <hr />
+      <h1>SKILLS</h1>
       <div className="skills-frame">
-        <ul className="skills-list">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JAVASCRIPT</li>
-          <li>NPM</li>
-          <li>MYSQL</li>
-          <li>NODE (BASICS)</li>
-          <li>REACT</li>
-          <li>REDUX</li>
-          <li>STYLED COMPONENTS</li>
-        </ul>
+        <div className="skills-list">
+          <text>HTML</text>
+          <text>CSS</text>
+          <text>JAVASCRIPT</text>
+          <text>PYTHON</text>
+          <text>REACT(HOOKS, REDUX)</text>
+          <text>STYLED COMPONENTS</text>
+          <text>NPM</text>
+          <text>MYSQL(BASICS)</text>
+          <text>NODE (BASICS)</text>
+        </div>
         <div className="skills-image-desktop">
           <img src={desktopGuy} alt="desktop-guy" />
         </div>
