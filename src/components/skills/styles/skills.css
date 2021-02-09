@@ -1,0 +1,31 @@
+.skills-frame {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-image-desktop {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-list {
+  width: 100%;
+  font-size: 35px;
+  margin: auto;
+  list-style-type: none;
+  text-align: center;
+}
+
+.skills-list li {
+  width: 100%;
+  font-size: 35px;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.skills-image-desktop img {
+  width: 30%;
+  height: 80%;
+  margin: auto;
+}

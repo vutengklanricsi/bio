@@ -10,14 +10,13 @@ function Navbar() {
         Introduction
       </a>
       <a className="navbar-options" href="#">
+        About Me
+      </a>
+      <a className="navbar-options" href="#">
         Skills
       </a>
-
       <a className="navbar-options" href="#">
         Projects
-      </a>
-      <a className="navbar-options" href="#">
-        About Me
       </a>
       <div className="navbar-logos">
         <img className="navbar-logo" src={github} alt="github" />

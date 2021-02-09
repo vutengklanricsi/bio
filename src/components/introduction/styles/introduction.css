@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 25px 0;
+  padding:0  0;
   height: 667px;
   width: 100%;
 }
@@ -37,15 +37,6 @@ img {
   transform-origin: 50% 50%;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 10px 100px 20px 100px;
-  padding: 0;
-}
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -57,7 +48,7 @@ hr {
 
 @media screen and (max-width: 1550px) {
   .introduction-frame {
-    padding: 25px 0;
+    padding: 0;
     height: 535px;
     width: 100%;
   }
@@ -72,7 +63,6 @@ hr {
 
 @media screen and (max-width: 1350px) {
   .introduction-frame {
-    padding: 25px 0;
     height: 400px;
     width: 100%;
   }
@@ -83,7 +73,6 @@ hr {
 
 @media screen and (max-width: 1165px) {
   .introduction-frame {
-    padding: 25px 0;
     height: 335px;
     width: 100%;
   }
