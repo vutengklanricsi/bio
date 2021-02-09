@@ -10,7 +10,7 @@ export default function Introduction() {
         <div className="introduction-image">
           <img src={introPic} alt="intro-pic" />
         </div>
-        <div className="introduction-title">WELCOME TO MY PORTFOLIO PAGE</div>
+        <div className="introduction-title">WELCOME TO MY PORTFOLIO PAGE!</div>
       </div>
     </>
   );
