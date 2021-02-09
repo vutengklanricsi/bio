@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./styles/about.css";
 
 export default function About() {
-    return (
-        <div>
-            wkfnwelfn
-        </div>
-    )
+  return (
+    <>
+      <hr />
+      <div className="about-frame">
+        <div className="about-frame"></div>
+      </div>
+    </>
+  );
 }

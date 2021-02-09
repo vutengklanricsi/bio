@@ -22,8 +22,8 @@ function Navbar() {
         Contact
       </a>
       <div className="navbar-logos">
-        <img className="navbar-logo" src={github} />
-        <img className="navbar-logo" src={linkedIn} />
+        <img className="navbar-logo" src={github} alt="github" />
+        <img className="navbar-logo" src={linkedIn} alt="linkedIn" />
       </div>
       {/* <hr /> */}
     </div>
