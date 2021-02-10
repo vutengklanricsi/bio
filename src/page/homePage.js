@@ -7,10 +7,14 @@ import Skills from "../components/skills/index";
 export default function HomePage() {
   return (
     <>
-      <Navbar />
-      <Introduction />
-      <Skills />
-      <About />
+      <div>
+        <Navbar />
+      </div>
+      <>
+        <Introduction />
+        <Skills />
+        <About />
+      </>
     </>
   );
 }

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  padding:0  0;
+  margin: auto;
   height: 667px;
   width: 100%;
 }
@@ -100,10 +100,6 @@ img {
     margin: 0px;
 	}
 	
-	hr{
-		margin: 10px 100px 10px 100px;
-	}
-
   .introduction-image {
     margin: 0 0;
     clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);

@@ -2,17 +2,28 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  width: 100%;
+  font-size: 18px;
   padding: 10px 0px 10px 0px;
-  background-color: rgb(103, 161, 106);
+  background-color: rgb(133, 204, 204);
+  /* position: fixed; */
+  position: -webkit-sticky;
+
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  /* transition: 0.6s; */
+  /* margin:0 0 1px 0; */
 }
 
 .navbar-options {
-  color: black;
+  color: white;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 10px;
   padding: 15px 20px;
   position: relative;
+  /* transition: 0.6s; */
 }
 .navbar-options:after {
   background: none repeat scroll 0 0 transparent;
@@ -21,7 +32,7 @@
   height: 2px;
   left: 50%;
   position: absolute;
-  background: black;
+  background: white;
   transition: width 0.8s ease 0s, left 0.8s ease 0s;
   width: 0;
 }
@@ -50,7 +61,6 @@
   .navbar-options {
     font-size: 15px;
   }
-
   .navbar-logos {
     display: flex;
     margin: 0 auto;

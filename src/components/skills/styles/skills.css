@@ -1,7 +1,6 @@
 .skills-frame {
   background-color: white;
   display: flex;
-	flex-wrap: wrap;
   flex-direction: row;
   letter-spacing: 7px;
 }
@@ -15,26 +14,45 @@
   width: 100%;
   list-style-type: none;
 }
-.skills-list text {
+.skills-list div {
   width: 100%;
   font-size: 25px;
-  padding: 20px 0px 0px 150px ;
+  padding: 20px 0px 0px 150px;
+  transition: transform 0.2s;
 }
-.skills-list text::before {
+.skills-list div:hover {
+  transform: scale(1.05);
+}
+.skills-list div::before {
   content: "";
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fb-heart.gif);
+  background-image: url(https://www.pngfind.com/pngs/m/85-857091_png-file-settings-icon-transparent-png.png);
   background-size: contain;
   display: inline-block;
   width: 1em;
   height: 1em;
   position: relative;
   top: 2px;
-  /* margin-right: 80px; */
+  margin-right: 80px;
 }
 .skills-image-desktop img {
   width: 500px;
   height: 500px;
   margin: auto 230px;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 h1 {
   text-align: center;
@@ -44,20 +62,20 @@ h1 {
   .skills-frame {
     display: flex;
     flex-direction: column;
-		margin: 0 auto;
+    margin: 0 auto;
   }
   .skills-image-desktop img {
     width: 250px;
     height: 250px;
     margin: 30px auto;
   }
-  .skills-list text {
+  .skills-list div {
+    width: 80%;
     font-size: 20px;
-		padding: 20;
-		flex: 1;
+    margin: 0px 0px 0px 100px;
+    padding: 20px 0px 0px 0px;
   }
-
-	.skills-list text::before {
-		margin-right: 10px;
-	}
+  .skills-list div::before {
+    margin-right: 10px;
+  }
 }
