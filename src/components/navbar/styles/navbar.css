@@ -7,13 +7,10 @@
   padding: 10px 0px 10px 0px;
   background-color: rgb(133, 204, 204);
   /* position: fixed; */
-  position: -webkit-sticky;
-
   position: sticky;
   top: 0;
   z-index: 10000;
   /* transition: 0.6s; */
-  /* margin:0 0 1px 0; */
 }
 
 .navbar-options {
