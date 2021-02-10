@@ -1,6 +1,6 @@
 .skills-frame {
-  background-color: white;
   display: flex;
+  background-color: white;
   flex-direction: row;
   letter-spacing: 7px;
 }
