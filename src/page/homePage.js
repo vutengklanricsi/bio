@@ -3,6 +3,7 @@ import Navbar from "../components/navbar/index";
 import Introduction from "../components/introduction/index";
 import About from "../components/about/index";
 import Skills from "../components/skills/index";
+import Projects from "../components/projects/index";
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Introduction />
       <Skills />
       <About />
+      <Projects />
     </>
   );
 }

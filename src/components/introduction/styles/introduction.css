@@ -9,6 +9,8 @@
 
 .introduction-image {
 	margin: auto 0px auto 50px;
+  animation: fadein 1s;
+	-webkit-animation: fadein 1s;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
