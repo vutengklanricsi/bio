@@ -12,6 +12,9 @@
   font-size: 30px;
   margin-top: 80px;
   padding: 10px;
+  background-position: left top;
+  animation-duration: 2s;
+  animation-fill-mode: both;
 }
 .about-description a {
   text-decoration: none;
@@ -26,8 +29,51 @@
   clip-path: ellipse(50% 50% at 50% 49.5%);
   margin-left: 200px;
   margin-top: 90px;
+  animation: fadein 1s;
+  -webkit-animation: fadein 1s;
 }
-
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 1500px) {
+  .about-frame {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-profile-picture {
+    text-align: center;
+  }
+  .about-profile-picture img {
+    width: 20%;
+    clip-path: ellipse(50% 50% at 50% 49.5%);
+    margin: 0;
+  }
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+}
 @media screen and (max-width: 900px) {
   .about-frame {
     display: flex;
@@ -54,6 +100,6 @@
     font-size: 20px;
     margin-top: 10px;
     margin: 10 auto;
-    /* padding: 10px 100px 10px 150px; */
   }
 }
+

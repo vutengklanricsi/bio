@@ -12,7 +12,7 @@ export default function About() {
           <img src={profilePic} alt="profile" />
         </div>
         <div className="about-text">
-          <div className="about-description">
+          <div className="about-description fadeInLeft">
             I studied faculty of finance and accountancy at Budapest Business
             School.
             <br />
@@ -20,7 +20,7 @@ export default function About() {
             change my career path to become a developer.
             <br />I have a diploma in web development.
             <br /> Ever since then, I self-learned react. My next goal is to
-            learn typescript, improve on my css and writing cleaner codes!For the giggs, this my very first{" "}
+            learn typescript, improve on my css and writing cleaner codes!For the giggs, this is my very first{" "}
             <a href="https://ebelet.gportal.hu/" target="_blank">
               "website"
             </a>{" "}
