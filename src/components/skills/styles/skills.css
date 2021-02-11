@@ -25,8 +25,9 @@
 }
 .skills-list div::before {
   content: "";
-  background-image: url(https://www.pngfind.com/pngs/m/85-857091_png-file-settings-icon-transparent-png.png);
+  background-image: url(https://cdn.pixabay.com/photo/2013/07/13/10/48/check-157822_1280.png);
   background-size: contain;
+  background-repeat: no-repeat;
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -57,6 +58,25 @@
 h1 {
   text-align: center;
   letter-spacing: 7px;
+}
+@media screen and (max-width: 1420px) {
+  .skills-frame {
+    display: flex;
+    flex-direction: display;
+  }
+  .skills-list div{
+    width: 100%;
+    font-size: 1.26vw;
+    margin: 10px 80px;
+    padding: 10px 0px 0px 0px;
+  }
+  .skills-list div::before {
+    margin-right: 60px;
+  }
+  .skills-image-desktop img {
+    width: 35vw;
+    margin: 0px 120px;
+  }
 }
 @media screen and (max-width: 900px) {
   .skills-frame {
