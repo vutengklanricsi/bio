@@ -19,7 +19,7 @@ export default function About() {
               <br />
               After two years of study and a half year of internship, I decided
               to change my career path to become a developer.
-              <br />I have a diploma in web development.
+              <br />I have a diploma in web development in 2020.
               <br /> Ever since then, I self-learned react. My next goal is to
               learn typescript, improve on my css and writing cleaner codes!For
               the giggs, this is my very first{" "}

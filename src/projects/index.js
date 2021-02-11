@@ -1,23 +1,23 @@
-export const projects = [
+export const projectsConst = [
   {
-    title: "Portfolio",
+    name: "Portfolio",
     technology: "Javascript, Html, Css, Git, React",
   },
   {
-    title: "Netflix-clone",
+    name: "Netflix-clone",
     technology:
       "Javascript, Html, Css, Git, React, Firebase, Styled Components, FuseJs",
   },
   {
-    title: "Mario",
+    name: "Mario",
     technology: "Javascript, Html, Css, Git",
   },
   {
-    title: "Tetris",
+    name: "Tetris",
     technology: "Javascript, Html, Css, Git",
   },
   {
-    title: "Hangman",
+    name: "Hangman",
     technology: "Javascript, Html, Css, Git",
   },
 ];
