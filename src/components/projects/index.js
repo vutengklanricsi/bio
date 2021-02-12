@@ -1,26 +1,38 @@
 import React from "react";
 import "./styles/projects.css";
 import { projectsConst } from "../../projects/index";
-import ff from "./pictures/3.jpg";
+import pic1 from "./pictures/1.jpg";
+import pic2 from "./pictures/2.jpg";
+import pic3 from "./pictures/3.jpg";
+import pic4 from "./pictures/4.jpg";
+import pic5 from "./pictures/5.jpg";
 
 export default function Projects() {
-  console.log(ff);
+  // console.log(ff);
   return (
     <div className="projects-frame">
       <div className="projects-title">
         <h1>Projects</h1>
-        190 hagyma 180 repa
       </div>
       {projectsConst.map((project) => {
         return (
-          <div className="projects-item" key={project.id}>
-            <div className="projects-image">
-              <img src={project.picUrl} alt={project.name} />
+          <>
+            <hr className="projects-hr" />
+            <div className="projects-item" key={project.id}>
+              <div className="projects-name">{project.name}</div>
+              <div className="projects-image-frame">
+                <img
+                  className="projects-image"
+                  src={project.picUrl}
+                  alt={project.name}
+                />
+              </div>
+              <div className="projects-technology">{project.technology}</div>
             </div>
-            <div className="projects-name">{project.name}</div>
-          </div>
+          </>
         );
       })}
+      <hr />
     </div>
   );
 }
