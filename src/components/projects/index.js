@@ -17,9 +17,12 @@ export default function Projects() {
       {projectsConst.map((project) => {
         return (
           <>
-            <hr className="projects-hr" />
-            <div className="projects-item" key={project.id}>
+            <hr />
+            <div className="projects-div-name">
               <div className="projects-name">{project.name}</div>
+              <hr />
+            </div>
+            <div className="projects-item" key={project.id}>
               <div className="projects-image-frame">
                 <img
                   className="projects-image"
@@ -27,7 +30,13 @@ export default function Projects() {
                   alt={project.name}
                 />
               </div>
-              <div className="projects-technology">{project.technology}</div>
+              <div className="projects-description">
+                <div className="projects-technology-item">
+                  <div className="projects-technology-title">Technology</div>
+                  <hr />
+                </div>
+                <div className="projects-technology">{project.technology}</div>
+              </div>
             </div>
           </>
         );

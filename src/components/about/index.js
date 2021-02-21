@@ -10,7 +10,12 @@ export default function About() {
         <h1>Vuong-Tan Quang Richard</h1>
         <div className="about-frame">
           <div className="about-profile-picture">
-            <img src={profilePic} alt="profile" />
+            <a
+              href="https://www.linkedin.com/in/richard-vuong-tan-quang-92875917a/"
+              target="_blank"
+            >
+              <img src={profilePic} alt="profile" />
+            </a>
           </div>
           <div className="about-text">
             <div className="about-description fadeInLeft">

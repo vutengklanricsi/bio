@@ -10,24 +10,7 @@
 .introduction-image {
   margin: auto 0px auto 50px;
   animation: fadein 1s;
-  -webkit-animation: fadein 1s;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-}
-
-.introduction-title {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  letter-spacing: 10px;
-  margin: auto 0;
-  animation: fadein 4s;
-  -webkit-animation: fadein 4s;
-  font-size: 35px;
-}
-
-.introduction-title:hover {
-  color: rgb(180, 173, 173);
 }
 
 .introduction-header-img {
@@ -46,6 +29,21 @@
   to {
     opacity: 1;
   }
+}
+.introduction-title {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  letter-spacing: 10px;
+  margin: auto 0;
+  animation: fadein 4s;
+  -webkit-animation: fadein 4s;
+  font-size: 35px;
+}
+
+.introduction-title:hover {
+  color: rgb(180, 173, 173);
 }
 
 @media screen and (max-width: 1550px) {
