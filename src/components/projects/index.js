@@ -41,6 +41,14 @@ export default function Projects() {
           </>
         );
       })}
+      <a
+        className="projects-more-projects"
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/vutengklanricsi"
+      >
+        Click here for more projects
+      </a>
       <hr />
     </div>
   );

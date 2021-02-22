@@ -67,6 +67,22 @@
   padding: 0 500px;
 }
 
+.projects-more-projects {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2vw;
+  text-decoration: none;
+  width: 450px;
+  padding: 10px;
+  margin: 25px;
+  color: white;
+  background-color: rgb(133, 204, 204);
+  border: 1px solid grey;
+}
+.projects-more-projects:hover {
+}
+
 @media screen and (max-width: 900px) {
   .projects-item {
     display: flex;

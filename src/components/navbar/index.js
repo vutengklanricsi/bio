@@ -20,8 +20,12 @@ function Navbar() {
           Projects
         </a>
         <div className="navbar-logos">
-          <img className="navbar-logo" src={github} alt="github" />
-          <img className="navbar-logo" src={linkedIn} alt="linkedIn" />
+          <a rel="noreferrer" target="_blank" href="https://github.com/vutengklanricsi">
+            <img className="navbar-logo" src={github} alt="github" target="_blank" />
+          </a>
+          <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/richard-vuong-tan-quang-92875917a/">
+            <img className="navbar-logo" src={linkedIn} alt="linkedIn" />
+          </a>
         </div>
       </div>
       <hr />
