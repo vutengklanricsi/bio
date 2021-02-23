@@ -14,7 +14,7 @@ body {
   /* font-family: "Pacifico", cursive; */
 }
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 15px;
   height: 10px;
 }
 ::-webkit-scrollbar-thumb {
