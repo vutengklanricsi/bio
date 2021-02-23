@@ -13,12 +13,21 @@ body {
   font-family: "IBM Plex Serif", serif;
   /* font-family: "Pacifico", cursive; */
 }
-
+::-webkit-scrollbar {
+  width: 20px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(107, 192, 192);
+}
+::-webkit-scrollbar-track {
+  background: rgb(217, 248, 248);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 hr {
   display: block;
   height: 1px;
