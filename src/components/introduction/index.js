@@ -7,9 +7,13 @@ export default function Introduction() {
   return (
     <>
       <Navbar />
-      <div className="introduction-frame">
+      <div id="introduction" className="introduction-frame">
         <div className="introduction-image">
-          <img className="introduction-header-img" src={introPic} alt="intro-pic" />
+          <img
+            className="introduction-header-img"
+            src={introPic}
+            alt="intro-pic"
+          />
         </div>
         <div className="introduction-title">
           Vuong-Tan Quang Richard <br />

@@ -10,13 +10,13 @@ function Navbar() {
         <a className="navbar-options" href="#">
           Introduction
         </a>
-        <a className="navbar-options" href="#">
+        <a className="navbar-options" href="#about">
           About Me
         </a>
-        <a className="navbar-options" href="#">
+        <a className="navbar-options" href="#skills">
           Skills
         </a>
-        <a className="navbar-options" href="#">
+        <a className="navbar-options" href="#projects">
           Projects
         </a>
         <div className="navbar-logos">

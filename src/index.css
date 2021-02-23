@@ -1,15 +1,17 @@
-@font-face {
-  src: url(fonts/IBMPlexSerif-Regular.ttf);
-  font-family: "IBM Plex Serif", serif;
-  /* font-family: "Pacifico", cursive; */
+html {
+  scroll-behavior: smooth;
 }
-
 body {
   margin: 0;
   font-family: "IBM Plex Serif", serif;
   /* font-family: 'Pacifico', cursive; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  src: url(fonts/IBMPlexSerif-Regular.ttf);
+  font-family: "IBM Plex Serif", serif;
+  /* font-family: "Pacifico", cursive; */
 }
 
 code {

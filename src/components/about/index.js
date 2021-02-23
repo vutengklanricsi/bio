@@ -5,12 +5,13 @@ import "./styles/about.css";
 export default function About() {
   return (
     <>
-      <hr />
+      <hr id="about" />
       <div className="about-frame-title">
         <h1>Vuong-Tan Quang Richard</h1>
         <div className="about-frame">
           <div className="about-profile-picture">
             <a
+              rel="noreferrer"
               href="https://www.linkedin.com/in/richard-vuong-tan-quang-92875917a/"
               target="_blank"
             >

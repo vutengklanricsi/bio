@@ -8,9 +8,8 @@ import pic4 from "./pictures/4.jpg";
 import pic5 from "./pictures/5.jpg";
 
 export default function Projects() {
-  // console.log(ff);
   return (
-    <div className="projects-frame">
+    <div id="projects" className="projects-frame">
       <div className="projects-title">
         <h1>Projects</h1>
       </div>
@@ -19,16 +18,20 @@ export default function Projects() {
           <>
             <hr />
             <div className="projects-div-name">
-              <div className="projects-name">{project.name}</div>
+              <a id="projects-name-id" href={project.linkTo} target="_blank" rel="noreferrer">
+                <div className="projects-name">{project.name}</div>
+              </a>
               <hr />
             </div>
             <div className="projects-item" key={project.id}>
               <div className="projects-image-frame">
-                <img
-                  className="projects-image"
-                  src={project.picUrl}
-                  alt={project.name}
-                />
+                <a href={project.linkTo} rel="noreferrer" target="_blank">
+                  <img
+                    className="projects-image"
+                    src={project.picUrl}
+                    alt={project.name}
+                  />
+                </a>
               </div>
               <div className="projects-description">
                 <div className="projects-technology-item">
@@ -41,6 +44,8 @@ export default function Projects() {
           </>
         );
       })}
+      <hr />
+
       <a
         className="projects-more-projects"
         target="_blank"

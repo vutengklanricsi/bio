@@ -6,11 +6,9 @@
   font-size: 18px;
   padding: 10px 0px 10px 0px;
   background-color: rgb(133, 204, 204);
-  /* position: fixed; */
   position: sticky;
   top: 0;
   z-index: 10000;
-  /* transition: 0.6s; */
 }
 
 .navbar-options {
@@ -20,7 +18,6 @@
   letter-spacing: 10px;
   padding: 15px 20px;
   position: relative;
-  /* transition: 0.6s; */
 }
 .navbar-options:after {
   background: none repeat scroll 0 0 transparent;

@@ -5,7 +5,7 @@ import desktopGuy from "./styles/skills2.png";
 export default function Skills() {
   return (
     <>
-      <hr />
+      <hr id="skills"/>
       <h1>SKILLS</h1>
       <div className="skills-frame">
         <div className="skills-list">

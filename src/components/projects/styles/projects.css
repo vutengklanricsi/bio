@@ -44,6 +44,10 @@
   text-align: center;
   font-size: 2vw;
 }
+#projects-name-id{
+  text-decoration: none;
+  color: black;
+}
 .projects-name {
   font-size: 2.5vw;
   letter-spacing: 10px;
@@ -70,17 +74,18 @@
 .projects-more-projects {
   display: flex;
   justify-content: center;
-  text-align: center;
   font-size: 2vw;
   text-decoration: none;
   width: 450px;
   padding: 10px;
-  margin: 25px;
+  margin: 25px auto;
   color: white;
   background-color: rgb(133, 204, 204);
-  border: 1px solid grey;
+  border-radius: 10px;
 }
 .projects-more-projects:hover {
+  background-color: rgb(84, 180, 180);
+
 }
 
 @media screen and (max-width: 900px) {
