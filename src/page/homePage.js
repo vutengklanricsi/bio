@@ -3,6 +3,7 @@ import Introduction from "../components/introduction/index";
 import About from "../components/about/index";
 import Skills from "../components/skills/index";
 import Projects from "../components/projects/index";
+import Footer from "../components/footer/index";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <Skills />
       <About />
       <Projects />
+      <Footer />
     </>
   );
 }
