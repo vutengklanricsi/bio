@@ -11,7 +11,7 @@ body {
 @font-face {
   src: url(fonts/IBMPlexSerif-Regular.ttf);
   font-family: "IBM Plex Serif", serif;
-  /* font-family: "Pacifico", cursive; */
+  font-family: "Pacifico", cursive;
 }
 ::-webkit-scrollbar {
   width: 15px;
