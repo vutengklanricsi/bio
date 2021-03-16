@@ -15,7 +15,7 @@ export default function Projects() {
       </div>
       {projectsConst.map((project) => {
         return (
-          <>
+          <div key={project.id}>
             <hr />
             <div className="projects-div-name">
               <a id="projects-name-id" href={project.linkTo} target="_blank" rel="noreferrer">
@@ -23,8 +23,8 @@ export default function Projects() {
               </a>
               <hr />
             </div>
-            <div className="projects-item" key={project.id}>
-              <div className="projects-image-frame">
+            <div className="projects-item">
+              <div className="projects-image-frame" key={project.id}>
                 <a href={project.linkTo} rel="noreferrer" target="_blank">
                   <img
                     className="projects-image"
@@ -41,7 +41,7 @@ export default function Projects() {
                 <div className="projects-technology">{project.technology}</div>
               </div>
             </div>
-          </>
+          </div>
         );
       })}
       <hr />
