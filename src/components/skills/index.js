@@ -13,9 +13,9 @@ export default function Skills() {
           <div>CSS</div>
           <div>JAVASCRIPT</div>
           <div>PYTHON</div>
-          <div>REACT(HOOKS, REDUX)</div>
+          <div>REACT(HOOKS)</div>
           <div>STYLED COMPONENTS</div>
-          <div>NPM</div>
+          <div>NPM(BASICS)</div>
           <div>MYSQL(BASICS)</div>
           <div>NODE (BASICS)</div>
         </div>
