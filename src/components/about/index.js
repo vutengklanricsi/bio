@@ -29,7 +29,7 @@ export default function About() {
               <br /> Ever since then, I self-learned react. My next goal is to
               learn typescript, improve on my css and writing cleaner codes!For
               the giggs, this is my very first{" "}
-              <a href="https://ebelet.gportal.hu/" target="_blank">
+              <a rel="noreferrer" href="https://ebelet.gportal.hu/" target="_blank">
                 "website"
               </a>{" "}
               I created as a teenager.
