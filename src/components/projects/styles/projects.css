@@ -80,11 +80,11 @@
   padding: 10px;
   margin: 25px auto;
   color: white;
-  background-color: rgb(133, 204, 204);
+  background-color: black;
   border-radius: 10px;
 }
 .projects-more-projects:hover {
-  background-color: rgb(84, 180, 180);
+  background-color: grey;
 }
 
 @media screen and (max-width: 900px) {

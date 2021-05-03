@@ -1,7 +1,7 @@
 .footer-frame {
   display: flex;
   justify-content: center;
-  background-color: rgb(133, 204, 204);
+  background-color: black;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
