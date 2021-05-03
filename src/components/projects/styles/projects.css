@@ -84,7 +84,7 @@
   border-radius: 10px;
 }
 .projects-more-projects:hover {
-  background-color: grey;
+  background-color: rgb(32, 32, 32);
 }
 
 @media screen and (max-width: 900px) {
