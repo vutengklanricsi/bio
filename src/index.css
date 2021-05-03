@@ -15,17 +15,19 @@ body {
   font-family: "Pacifico", cursive;
 }
 ::-webkit-scrollbar {
-  width: 17px;
-  height: 10px;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: black;
+  width: 15px;               /* width of the entire scrollbar */
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(88, 86, 86);
+  background: rgb(54, 54, 54);
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+  border: 3.5px solid rgb(54, 54, 54);  
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

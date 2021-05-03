@@ -9,15 +9,15 @@ export default function Skills() {
       <h1>SKILLS</h1>
       <div className="skills-frame">
         <div className="skills-list">
-          <div>HTML</div>
-          <div>CSS</div>
-          <div>JAVASCRIPT</div>
-          <div>PYTHON</div>
-          <div>REACT(HOOKS)</div>
-          <div>STYLED COMPONENTS</div>
-          <div>NPM(BASICS)</div>
-          <div>MYSQL(BASICS)</div>
-          <div>NODE (BASICS)</div>
+          <div>Html</div>
+          <div>Css</div>
+          <div>Javascript</div>
+          <div>Python</div>
+          <div>React (Hooks)</div>
+          <div>React Native (In progress)</div>
+          <div>Next (In progress)</div>
+          <div>Mysql (Basics)</div>
+          <div>Node (Basics)</div>
         </div>
         <div className="skills-image-desktop">
           <img src={desktopGuy} alt="desktop-guy" />
