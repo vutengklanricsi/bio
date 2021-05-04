@@ -2,8 +2,6 @@
   display: flex;
   justify-content: center;
   background-color: black;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 .footer-text {
   padding: 10px;
