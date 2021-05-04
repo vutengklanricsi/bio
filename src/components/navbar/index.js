@@ -13,7 +13,9 @@ function Navbar() {
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
-    return windowWidth;
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, [windowWidth]);
 
   return (
