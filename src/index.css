@@ -15,17 +15,17 @@ body {
   font-family: "Pacifico", cursive;
 }
 ::-webkit-scrollbar {
-  width: 15px;               /* width of the entire scrollbar */
+  width: 17px;               /* width of the entire scrollbar */
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(54, 54, 54);
+  background: rgb(92, 91, 91);
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: black;
   border-radius: 20px;
-  border: 3.5px solid rgb(54, 54, 54);  
+  border: 3.5px solid rgb(92, 91, 91);  
 }
 
 code {
