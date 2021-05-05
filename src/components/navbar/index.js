@@ -4,7 +4,7 @@ import github from "./styles/github.png";
 import linkedIn from "./styles/linkedIn.png";
 
 function Navbar() {
-  const [menu, setMenu] = useState(false);
+  const [menu, setMenu] = useState(true);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   function handleResize() {

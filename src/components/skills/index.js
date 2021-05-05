@@ -13,7 +13,7 @@ export default function Skills() {
           <div>Css</div>
           <div>Javascript</div>
           <div>Python</div>
-          <div>React (Hooks)</div>
+          <div>React</div>
           <div>React Native (In progress)</div>
           <div>Next (In progress)</div>
           <div>Mysql (Basics)</div>
