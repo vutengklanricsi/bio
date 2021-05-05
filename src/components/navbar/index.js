@@ -18,8 +18,13 @@ function Navbar() {
     };
   }, [windowWidth]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
+      <div id="introduction"></div>
       <div className="navbar-frame">
         <div className="navbar-hamburger">
           <div
@@ -35,7 +40,7 @@ function Navbar() {
         </div>
         {windowWidth > 900 ? (
           <div className="navbar-window">
-            <a className="navbar-options" href="#">
+            <a className="navbar-options" href="#introduction">
               Introduction
             </a>
             <a className="navbar-options" href="#about">
@@ -72,7 +77,7 @@ function Navbar() {
         ) : null}
         {!menu && windowWidth <= 900 ? (
           <div className="navbar-window">
-            <a className="navbar-options" href="#">
+            <a className="navbar-options" href="#introduction">
               Introduction
             </a>
             <a className="navbar-options" href="#about">
