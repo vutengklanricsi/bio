@@ -28,8 +28,7 @@ export default function Projects() {
                 <a href={project.linkTo} rel="noreferrer" target="_blank">
                   <img
                     className="projects-image"
-                    src={require(`../../../public/pictures/${project.picture}.jpg`)}
-                    // src={process.env.PUBLIC_URL + project.picture + ".jpg"}
+                    src={project.picture}
                     alt={project.name}
                   />
                 </a>
