@@ -38,7 +38,7 @@
 .about-parallax {
   background-image: url("./study_parallox.jpg");
 
-  min-height: 300px; 
+  min-height: 300px;
 
   background-attachment: fixed;
   background-position: center;
@@ -108,6 +108,9 @@
     flex-direction: column;
     margin: 10px auto;
     text-align: center;
+  }
+  .about-parallax {
+    min-height: 200px;
   }
   .about-description {
     font-size: 20px;
