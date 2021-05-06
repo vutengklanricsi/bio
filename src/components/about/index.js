@@ -38,6 +38,10 @@ export default function About() {
         </div>
       </div>
       <hr />
+
+    <div className="about-parallax"></div>
+
+      <hr />
     </>
   );
 }
