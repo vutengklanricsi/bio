@@ -1,5 +1,5 @@
 import React from "react";
-import Contacts from "../components/contacts/index";
+import Contact from "../components/contact/index";
 import About from "../components/about/index";
 import Skills from "../components/skills/index";
 import Projects from "../components/projects/index";
@@ -13,7 +13,7 @@ export default function HomePage() {
       <Skills />
       <About />
       <Projects />
-      <Contacts />
+      <Contact />
       <Footer />
     </>
   );
