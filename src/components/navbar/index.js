@@ -52,8 +52,8 @@ function Navbar() {
             <a className="navbar-options" href="#projects">
               Projects
             </a>
-            <a className="navbar-options" href="#contacts">
-              Contacts
+            <a className="navbar-options" href="#contact">
+              Contact
             </a>
             <div className="navbar-logos">
               <a
