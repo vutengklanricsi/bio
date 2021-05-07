@@ -14,7 +14,7 @@ export default function Header() {
             loop="loop"
             muted
             playsInline="playsinline"
-            poster="/assets/ocean-sunset.jpg"
+            poster="/assets/ocean-sunset.png"
             className="header-video-background"
           >
             <source src={backgroundVideo} type="video/mp4" />
