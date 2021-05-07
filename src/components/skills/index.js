@@ -5,8 +5,9 @@ import desktopGuy from "./styles/skills2.png";
 export default function Skills() {
   return (
     <>
-      <hr id="skills"/>
+      <hr id="skills" />
       <h1>SKILLS</h1>
+      <hr />
       <div className="skills-frame">
         <div className="skills-list">
           <div>Html</div>
@@ -23,6 +24,9 @@ export default function Skills() {
           <img src={desktopGuy} alt="desktop-guy" />
         </div>
       </div>
+      <hr />
+      <div className="skills-parallax"></div>
+      <hr />
     </>
   );
 }

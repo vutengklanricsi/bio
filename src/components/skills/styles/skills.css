@@ -34,6 +34,17 @@
   top: 2px;
   margin-right: 80px;
 }
+.skills-parallax {
+  background-image: url("./study_parallox.jpg");
+
+  min-height: 300px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .skills-image-desktop img {
   width: 500px;
   height: 500px;
@@ -96,5 +107,8 @@ h1 {
   }
   .skills-list div::before {
     margin-right: 10px;
+  }
+  .skills-parallax {
+    min-height: 200px;
   }
 }

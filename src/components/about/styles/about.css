@@ -35,16 +35,7 @@
   animation: fadein 1s;
   -webkit-animation: fadein 1s;
 }
-.about-parallax {
-  background-image: url("./study_parallox.jpg");
 
-  min-height: 300px;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
@@ -108,9 +99,6 @@
     flex-direction: column;
     margin: 10px auto;
     text-align: center;
-  }
-  .about-parallax {
-    min-height: 200px;
   }
   .about-description {
     font-size: 20px;
