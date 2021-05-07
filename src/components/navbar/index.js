@@ -52,6 +52,9 @@ function Navbar() {
             <a className="navbar-options" href="#projects">
               Projects
             </a>
+            <a className="navbar-options" href="#contacts">
+              Contacts
+            </a>
             <div className="navbar-logos">
               <a
                 rel="noreferrer"

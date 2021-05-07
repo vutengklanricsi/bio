@@ -76,15 +76,15 @@
   justify-content: center;
   font-size: 2vw;
   text-decoration: none;
-  width: 450px;
-  padding: 10px;
+  width: 600px;
   margin: 25px auto;
   color: white;
-  background-color: black;
   border-radius: 10px;
+  letter-spacing: 5px;
+  transition: all .5s ease-in-out; 
 }
 .projects-more-projects:hover {
-  background-color: rgb(32, 32, 32);
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 900px) {
@@ -123,8 +123,5 @@
   .projects-technology-title {
     padding: 10px 0;
     font-size: 4vw;
-  }
-  .projects-more-projects{
-    width: 130px;
   }
 }

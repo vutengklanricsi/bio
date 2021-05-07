@@ -59,8 +59,18 @@
 
 .header-description {
   text-align: center;
-  font-size: 1.3vw;
+  font-size: 1.7vw;
   letter-spacing: 10px;
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 900px) {

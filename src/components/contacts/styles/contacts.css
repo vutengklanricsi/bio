@@ -44,6 +44,13 @@
 .contacts-title:hover {
   color: rgb(180, 173, 173);
 }
+.contacts-email-phone {
+  display:flex;
+  flex-wrap: nowrap;
+  font-size: 1.2vw;
+  padding-top: 20px;
+  letter-spacing: 3px;
+}
 
 @media screen and (max-width: 1550px) {
   .contacts-frame {
@@ -105,5 +112,10 @@
   .contacts-title {
     margin: 0 auto;
     text-align: center;
+  }
+
+  .contacts-email-phone {
+
+    font-size: 2vw;
   }
 }
