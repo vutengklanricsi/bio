@@ -13,6 +13,8 @@ export default function Header() {
             autoPlay="autoplay"
             loop="loop"
             muted
+            playsInline="playsinline"
+            poster="/assets/ocean-sunset.jpg"
             className="header-video-background"
           >
             <source src={backgroundVideo} type="video/mp4" />

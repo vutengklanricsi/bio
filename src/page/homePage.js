@@ -10,8 +10,8 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <Skills />
       <About />
+      <Skills />
       <Projects />
       <Contact />
       <Footer />
