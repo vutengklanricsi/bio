@@ -80,12 +80,21 @@
   .header-description {
     font-size: 2vw;
   }
+  .header-name {
+    animation: typing 3.5s steps(45, end), blink-caret 0.75s step-end infinite;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .header-text {
     top: 40%;
     left: 17%;
+    position: static;
+    padding-top: 20vw;
+    padding-bottom: 20vw;
+  }
+  video {
+    display: none;
   }
   .header-description {
     font-size: 2vw;
