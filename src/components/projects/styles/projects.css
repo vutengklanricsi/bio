@@ -73,6 +73,7 @@
 
 .projects-more-projects {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
   font-size: 2vw;
   text-decoration: none;
@@ -117,6 +118,15 @@
     margin: auto;
     text-align: center;
   }
+
+.projects-more-projects {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-size: 2vw;
+  text-decoration: none;
+  width: 60vw;
+}
   .projects-technology-item {
     padding: 0px;
   }
