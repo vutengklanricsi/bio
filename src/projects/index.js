@@ -1,5 +1,12 @@
 export const projectsConst = [
   {
+    id: 0,
+    name: "Webshop(Work in progress)",
+    technology: "Javascript, Html, Css, Git, NextJs, Redux, Styled Components",
+    picture: "/assets/6.png",
+    linkTo: "https://github.com/vutengklanricsi/webshop_",
+  },
+  {
     id: 1,
     name: "Portfolio",
     technology: "Javascript, Html, Css, Git, React",
