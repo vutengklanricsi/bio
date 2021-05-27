@@ -6,14 +6,14 @@ export const projectsConst = [
     picture: "/assets/1.jpg",
     linkTo: "https://github.com/vutengklanricsi/bio",
   },
-  {
-    id: 2,
-    name: "Netflix-clone",
-    technology:
-      "Javascript, Html, Css, Git, React, Firebase, Styled Components, FuseJs",
-    picture: "/assets/2.jpg",
-    linkTo: "https://github.com/vutengklanricsi/netflix_clone",
-  },
+  // {
+  //   id: 2,
+  //   name: "Netflix-clone",
+  //   technology:
+  //     "Javascript, Html, Css, Git, React, Firebase, Styled Components, FuseJs",
+  //   picture: "/assets/2.jpg",
+  //   linkTo: "https://github.com/vutengklanricsi/netflix_clone",
+  // },
   {
     id: 3,
     name: "Mario",
