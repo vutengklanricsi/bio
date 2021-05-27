@@ -2,7 +2,7 @@ export const projectsConst = [
   {
     id: 0,
     name: "Webshop(Work in progress)",
-    technology: "Javascript, Html, Css, Git, NextJs, Redux, Styled Components",
+    technology: "Javascript, Html, Css, Git, NextJs, Redux",
     picture: "/assets/6.png",
     linkTo: "https://github.com/vutengklanricsi/webshop_",
   },
